@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fafafa;
+  color: #222;
+  text-align: center;
+}
+
+.hero {
+  background: url('https://i.ytimg.com/vi/pCv0oP9JLKw/maxresdefault.jpg') center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.hero .date {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.photo-gallery {
+  padding: 20px;
+}
+
+.photo-gallery .main-photo {
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.details {
+  padding: 30px 15px;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.videos {
+  padding: 30px 15px;
+}
+
+.video-frame {
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+.rsvp {
+  padding: 30px 15px;
+}
+
+input, select, button {
+  padding: 12px;
+  margin: 8px 0;
+  width: 80%;
+  max-width: 320px;
+  border-radius: 6px;
+  border: 1px solid #888;
+}
+
+button {
+  background-color: #5c8a1c;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #4a7218;
+}
+
+footer {
+  padding: 30px 10px;
+  background: #222;
+  color: white;
+}
