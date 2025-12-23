@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Koziol Family Invitation 🎶</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>You're Invited!</h1>
+    <p class="family-name">Koziol Family</p>
+    <h2>Morgan Wallen Live in Concert</h2>
+    <p class="date">June 5th, 2026</p>
+  </div>
+
+  <section class="details">
+    <h3>🎤 Event Details</h3>
+    <ul>
+      <li><strong>Time:</strong> 7:00 PM</li>
+      <li><strong>Venue:</strong> Nissan Stadium, Nashville, TN</li>
+      <li><strong>Dress Code:</strong> Country Chic 🤠</li>
+    </ul>
+  </section>
+
+  <section class="rsvp">
+    <h3>📩 RSVP</h3>
+    <form id="rsvpForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="attendance">Will you attend?</label>
+      <select id="attendance" required>
+        <option value="">-- Choose --</option>
+        <option value="yes">Yes! We'll be there 🎉</option>
+        <option value="no">Sorry, can't make it</option>
+      </select>
+
+      <button type="submit">Send RSVP</button>
+      <p id="responseMsg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>With love,</p>
+    <p>💛 The Wallen Concert Crew</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
